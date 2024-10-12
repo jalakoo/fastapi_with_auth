@@ -29,13 +29,13 @@ This project is a FastAPI-based authentication service that supports multiple au
 
    ```
    poetry shell
-   uvicorn fastapi_with_auth.main:app --reload
+   uvicorn server.main:app --reload
    ```
 
    or together like:
 
    ```
-   poetry run uvicorn fastapi_with_auth.main:app --reload --log-level info
+   poetry run uvicorn server.main:app --reload --log-level info
    ```
 
 3. The API will be available at `http://127.0.0.1:8000`.
